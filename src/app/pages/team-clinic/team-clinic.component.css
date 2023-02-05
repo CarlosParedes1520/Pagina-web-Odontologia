@@ -1,0 +1,35 @@
+.first {
+    width: 100%;
+    background-color: #F2F2F2 ;
+    padding: 3%;
+}
+
+.ss{
+
+    /* border-radius: 50% solid 5px!important; */
+   
+        border-style: solid;
+        border-width: 10px;
+        border-color: white;
+}
+
+.txt2{
+    color: #05CEC4;
+
+}
+
+.txt1{
+    margin: 0;
+    
+}
+
+.txt1, .txt2{
+    font-weight: bold
+    
+}
+
+.titulo{
+    color: #05CEC4;
+}
+
+

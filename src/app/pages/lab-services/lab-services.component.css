@@ -1,0 +1,153 @@
+.img1{
+    width: 220px;
+    height: 200px;
+}
+
+#contenido{
+    padding: 5%;
+    background: linear-gradient(to right, #F9F9F9 , #FEFEFE )!important;
+}
+
+.textoContenido{
+    /* border-radius: 30%; */
+    width: 900px;
+    padding: 2% 3%;
+    /* background: linear-gradient(to right, #001B74 60%, #00DFD0 40%); */
+    background: linear-gradient(to right, #001B74 25%, #00DFD0 );
+    color: white;
+}
+
+.colortxt, .icon{
+    color: #05CEB6;
+    margin-right: 4%;
+}
+
+h4{
+    margin: 0;
+}
+
+.icon{
+   width: 50px;
+   padding-top: 2%;
+}
+.secondCont{
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.dateImg{
+    margin-left: 8%;
+}
+
+.imgDent{
+    width: 50px;
+    height: 60px;
+    margin-right: 2%;
+}
+.imgDent2{
+    width: 400px;
+    height: 400px;
+  
+}
+
+/* .vc1 {
+    width: 250px;
+} */
+
+.linea{
+    background-color: #05CEB6;
+    height: 5px;
+    margin: 0 6%;
+    margin-top: -8%;
+    margin-bottom: 10%;
+}
+
+.icon2{
+    width: 100px;
+    height: 100px;
+}
+
+.imgDent2{
+    border-style: solid;
+    border-width: 15px;
+    border-color: white;
+}
+
+@media screen and (max-width:1384px) {
+    .imgDent2  {
+           
+            margin: 0 auto!important;
+           
+         
+    }
+
+
+    .img2{
+        margin: 0 auto!important;
+    }
+}
+@media screen and (max-width:1129px) {
+    #contenido {
+           
+            margin: 0!important;
+            height: auto;
+            margin-left:0;
+         
+    }
+}
+
+@media screen and (max-width:751px) {
+    .textoContenido{
+        margin: 0;
+        padding: 0;
+    }
+    h1,p{
+        font-size: 14px;
+    }
+    #contenido {
+        /* padding: 0%; */
+        margin: 0!important;
+        height: auto;
+        margin-left:0;
+     
+    }
+    .img2{
+        margin: 0 10%!important;
+    }
+}
+
+@media screen and (max-width:688px) {
+    .icon2{
+        width: 100px!important;
+        height: 90px!important;
+        /* padding: ; */
+            padding: 1%
+    }
+    .textoContenido  {
+        padding: 0px 3%!important;
+        border-radius: 20px!important;
+     }
+   #contenido {
+        margin: 0!important;
+        border-radius: 33% !important;
+        width: 100% !important;
+        height: auto;
+        
+    }
+    
+}
+@media screen and (max-width:440px) {
+   
+    .imgDent2{
+        width: 200px;
+        height: 200px;
+    }
+
+    .img2{
+        margin: 0 10%!important;
+    }
+}
+
+
+ 

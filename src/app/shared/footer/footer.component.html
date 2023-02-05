@@ -1,0 +1,33 @@
+
+<div class="container-fluid"
+    data-aos="fade-up"
+     data-aos-anchor-placement="bottom-center"
+     data-aos-duration="2000">
+    <div class="row">
+        <div class="col-sm-12 col-lg-5 col-xl-4 text-center padding-0">
+            <div class="background-images pt-2 pb-2 h-100 ">
+                <app-container-images></app-container-images>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-7 col-xl-8 padding-0">
+            <div class="px-5 pt-2 pb-4 background-contact h-100 ">
+                <div class="p-2 w-100 d-flex justify-content-end">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span style="width: 20px;"></span>
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="w-100 d-flex justify-content-end">
+                    TODOS LOS DERECHOS RESERVADOS
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a
+  class="btn-flotante"
+  [routerLink]
+  [fragment]="'home'"
+  [routerLinkActive]="'active'"
+  [routerLinkActiveOptions]="{exact: true}">
+    <i class="fa-solid fa-angle-up"></i>
+</a>

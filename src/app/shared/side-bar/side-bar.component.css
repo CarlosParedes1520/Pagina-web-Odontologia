@@ -1,0 +1,21 @@
+.nav-style {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    height: 60px;
+}
+
+.nav-style:hover:after {
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 6px;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.nav-style:hover {
+    color: orange;
+}

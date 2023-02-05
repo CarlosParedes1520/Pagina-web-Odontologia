@@ -1,0 +1,152 @@
+
+.cont1{
+    background-color: #26046D;
+    color: white;
+    width: 150px;
+    padding: 1% 2%;
+}
+.textPrincipal{
+    color:#26046D ;
+    margin-top: -7px;
+    margin-bottom: 0;
+    font-weight: bold
+}
+
+.title{
+    font-weight: bold;
+    
+}
+
+p{
+    color: #26046D;
+}
+
+.contact{
+    color: #05CEB6;
+}
+
+.principal{
+    width: 450px;
+    padding: 2% 1% 2% 3%;
+}
+
+.img1{
+    margin-right: -20px!important;
+}
+.cont2, .cont4  {
+   
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.ss{
+    width: 220px;
+    height: 220px;
+}
+
+
+ .cont2:hover > img {
+    transform: scale(1.1);
+}
+ .cont2 img{
+    width: 100%;
+    transition: all .5s ease;
+    /* object-fit: cover; */
+}
+ .cont4:hover > img {
+    transform: scale(1.1);
+}
+ .cont4 img{
+    width: 100%;
+    transition: all .5s ease;
+    /* object-fit: cover; */
+}
+
+.contenido{
+    /* width: 100%; */
+    padding-top: 2%;
+}
+
+
+
+.linea{
+    margin: 0px 10% 2% -4%;
+    height: 4px;
+    background-color: aqua;
+    background: linear-gradient(to right,#00E0D0,#001D75) ;
+}
+
+.cont3Texto{
+    margin-bottom: 0;
+}
+
+.cont3{
+    width: 365px;
+    margin-right: 1%;
+}
+
+.li{
+    font-size: 12px;
+    color: #26046D;
+}
+
+/* ul{
+    padding: 0;
+} */
+
+h3{
+    color: #26046D;
+}
+
+.info{
+    color: #ED7207;
+}
+
+.linea2 {
+    margin: 3%;
+    height: 4px;
+    background-color: aqua;
+    background: linear-gradient(to right, #00E0D0 50%, #001D75 50%);
+}
+
+.contentFinal{
+    padding: 5% 0;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .img1{
+        margin-right: 0px !important;
+
+    }
+    .principal{
+        margin: 0px 10%!important;
+    }
+    
+    
+}
+
+@media screen and (max-width:515px) {
+   
+    /* ul{
+        justify-content: center!important;
+    } */
+    /* .listaUl {
+    
+        justify-content: center!important;
+        padding: 0px !important;
+        margin-right: 2% !important;
+    } */
+
+    .listaUl{
+       
+       margin-left: 5%;
+       
+       
+    }
+    
+}

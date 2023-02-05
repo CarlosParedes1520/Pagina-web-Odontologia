@@ -1,0 +1,20 @@
+.card-gradient{
+    background: rgb(236, 236, 236);
+    background: linear-gradient(90deg, rgba(236, 236, 236, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.bg-custom-color{
+    background-color: #ED7203;
+    color: white;
+}
+.img-background {
+    background-image: url('../../../assets/images/info/tools2.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+.text-custom-color{
+    color: #ED7203;
+}
+.bg-custom-color-blue{
+    background-color: #0064A5;
+}

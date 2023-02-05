@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary px-lg-5" >
+    <div class="container-fluid">
+        <app-container-images></app-container-images>
+        <!-- icons style="border: 1px solid red;"-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- [routerLink] [fragment]="seccion"
+        [routerLinkActive]="'active'"
+        [routerLinkActiveOptions]="{exact: true}" -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2">
+                <li class="nav-item">
+                    <a
+                        class="nav-link active nav-style mt-lg-3 px-lg-4"
+                        aria-current="page"
+                        [routerLink] [fragment]="'about'"
+                        [routerLinkActive]="'active'"
+                        [routerLinkActiveOptions]="{exact: true}"
+                        >Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a
+                        class="nav-link active nav-style mt-lg-3 px-lg-4"
+                        [routerLink] [fragment]="'clinic'"
+                        [routerLinkActive]="'active'"
+                        [routerLinkActiveOptions]="{exact: true}"
+                        >Clínica</a>
+                </li>
+                <li class="nav-item">
+                    <a
+                        class="nav-link active nav-style mt-lg-3 px-lg-4"
+                        [routerLink] [fragment]="'lab'"
+                        [routerLinkActive]="'active'"
+                        [routerLinkActiveOptions]="{exact: true}"
+                        >Laboratorio</a>
+                </li>
+                <li class="nav-item">
+                    <a
+                        class="nav-link active nav-style mt-lg-3 px-lg-4"
+                        [routerLink] [fragment]="'location'"
+                        [routerLinkActive]="'active'"
+                        [routerLinkActiveOptions]="{exact: true}"
+                        >Ubicación</a>
+                </li>
+            </ul>
+            <div class="p-2 d-flex justify-content-start">
+                <i class="fa-brands fa-instagram"></i>
+                <span style="width: 20px;"></span>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+        </div>
+    </div>
+</nav>
